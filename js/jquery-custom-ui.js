@@ -12,8 +12,3 @@ function init(){
   $(".btn").button().css('fontFamily', 'nanumpen');
   $(document).tooltip();
 }
-
-
-$(document).ready(function(){
-  init();
-})
