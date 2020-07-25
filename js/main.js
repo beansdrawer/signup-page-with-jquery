@@ -1,4 +1,8 @@
 $(document).ready(function(){
   init();
-  searchPostcode()
+  searchPostcode();
+  $('form').submit(function(e){
+    //e.preventDefault();
+    return checkAll();
+  })
 })

@@ -15,7 +15,7 @@
 </head>
 <body>
   <div id="container">
-  <form action="" onsubmit="return false;">
+  <form action="#">
  
     <table id="signup-table">
         <tr>
@@ -24,11 +24,11 @@
         </tr>
         <tr>
           <th>비밀번호</th>
-          <td><input type="password" name="password" placeholder="비밀번호"/></td>
+          <td><input type="password" name="pw" placeholder="비밀번호"/></td>
         </tr>
         <tr>
-            <th>비밀번호확인</th>
-            <td><input type="password" name="confirm-password" placeholder="비밀번호 확인"/></td>
+          <th>비밀번호확인</th>
+          <td><input type="password" name="confirmpw" placeholder="비밀번호 확인"/></td>
         </tr>
         <tr>
           <th>이름</th>
@@ -43,13 +43,13 @@
         <tr>
           <th>주소</th>
           <td>
-            <input type="text" name="address" placeholder="주소"/>
+            <input type="text" name="addr" placeholder="주소"/>
           </td>
         </tr>
         <tr>
           <th>상세 주소</th>
           <td>
-            <input type="text" name="address-detail" placeholder="상세주소"/>
+            <input type="text" name="addrdetail" placeholder="상세주소"/>
           </td>
         </tr>
         <tr>
@@ -100,6 +100,7 @@
     </div>
     </form>
   </div>
+  <script src="js/data.js"></script>
   <script src="js/utilities.js"></script>
   <script src="js/jquery-custom-ui.js"></script>
   <script src="js/main.js"></script>
